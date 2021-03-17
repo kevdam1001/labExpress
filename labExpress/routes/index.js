@@ -28,7 +28,7 @@ router.post('/', function(req, res, next) {
     capacidad: req.body.capacidad
   }
   plantillas.push(plantilla);
-  res.json({Status: 200,
+  res.json({Status: 201,
   Response: 'Agregado correctamente'});
 });
 
